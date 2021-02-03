@@ -31,7 +31,7 @@ const GeneralUserScreen = ({ navigation }) => {
 
       <TouchableOpacity
         style={styles.buttonSignin}
-        //onPress={() => navigation.navigate('Signin')}
+        onPress={() => navigation.navigate('Home')}
       >
         <Text style={styles.buttonText}>เข้าสู่ระบบ</Text>
       </TouchableOpacity>
