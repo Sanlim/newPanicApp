@@ -4,7 +4,7 @@ import PreviewScreen from './screens/PreviewScreen';
 
 const App = () => {
   return(
-    <PreviewScreen />
+    <AuthStack />
   );
 }
 

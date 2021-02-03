@@ -10,28 +10,28 @@ const GeneralUserScreen = ({ navigation }) => {
 
       <TouchableOpacity
         style={styles.buttonContainer}
-        //onPress={() => navigation.navigate('PanicSymtomp')}
+        onPress={() => navigation.navigate('PanicSymtomp')}
       >
         <Text style={styles.buttonText}>โรคแพนิคคืออะไร</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
         style={styles.buttonContainer}
-        //onPress={() => navigation.navigate('PanicTest')}
+        onPress={() => navigation.navigate('PanicTest')}
       >
         <Text style={styles.buttonText}>แบบประเมินอาการแพนิค</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity 
-      style={styles.buttonSignup} 
-      //onPress={() => navigation.navigate('Signup')}
+      <TouchableOpacity
+        style={styles.buttonSignup}
+        //onPress={() => navigation.navigate('Signup')}
       >
         <Text style={styles.buttonText}>ลงทะเบียน</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity 
-      style={styles.buttonSignin} 
-      //onPress={() => navigation.navigate('Signin')}
+      <TouchableOpacity
+        style={styles.buttonSignin}
+        //onPress={() => navigation.navigate('Signin')}
       >
         <Text style={styles.buttonText}>เข้าสู่ระบบ</Text>
       </TouchableOpacity>
