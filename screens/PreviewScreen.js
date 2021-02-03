@@ -52,8 +52,8 @@ const PreviewScreen = ({ navigation }) => {
             NextButtonComponent={Next}
             DoneButtonComponent={Done}
             DotComponent={Dots}
-            //onSkip={() => navigation.replace("GeneralUser")}
-            //onDone={() => navigation.navigate("GeneralUser")}
+            onSkip={() => navigation.replace("GeneralUser")}
+            onDone={() => navigation.navigate("GeneralUser")}
             pages={[
                 {
                     backgroundColor: '#a6e4d0',
