@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "266908050527",
+    "project_id": "newpanicapp",
+    "storage_bucket": "newpanicapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266908050527:android:01c10d4b3cebf17869a7ea",
+        "android_client_info": {
+          "package_name": "com.newpanicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266908050527-ldu0ms0rfn7hppvhra4do0l69r4lbqfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY9R8HQL1iWBNDWkM-3mNUcphUwIyBlS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266908050527-ldu0ms0rfn7hppvhra4do0l69r4lbqfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
