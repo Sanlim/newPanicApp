@@ -9,17 +9,17 @@ import {
 } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-//import { AuthContext } from '../navigation/AuthProvider';
+import { AuthContext } from '../navigation/AuthProvider';
 
 //import firestore from '@react-native-firebase/firestore';
 
 const ProfileScreen = ({ navigation }) => {
-  //const { user, logout } = useContext(AuthContext);
-  
+  const { user, logout } = useContext(AuthContext);
+
   // const getUser = async () => {
   //   const usersDocument = await firestore().collection('users').doc
   //     ("vaajv1q2wKD7PFhDTpxI").get()
-  //     console.log(usersDocument);
+  //   console.log(usersDocument);
   // }
 
   return (
@@ -100,7 +100,7 @@ const ProfileScreen = ({ navigation }) => {
           </View>
         </TouchableRipple>
 
-        <TouchableOpacity onPress={() => {}}>
+        <TouchableOpacity onPress={() => logout()}>
           <View style={styles.profileItem}>
             <Icon name="logout" color="#FF6347" size={25} />
             <Text style={styles.profileItemText}>ออกจากระบบ</Text>

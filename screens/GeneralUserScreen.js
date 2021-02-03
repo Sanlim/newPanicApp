@@ -24,14 +24,14 @@ const GeneralUserScreen = ({ navigation }) => {
 
       <TouchableOpacity
         style={styles.buttonSignup}
-        //onPress={() => navigation.navigate('Signup')}
+        onPress={() => navigation.navigate('Signup')}
       >
         <Text style={styles.buttonText}>ลงทะเบียน</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
         style={styles.buttonSignin}
-        onPress={() => navigation.navigate('Home')}
+        onPress={() => navigation.navigate('Signin')}
       >
         <Text style={styles.buttonText}>เข้าสู่ระบบ</Text>
       </TouchableOpacity>

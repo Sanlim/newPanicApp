@@ -1,10 +1,10 @@
-import React from 'react'
-import AuthStack from './navigation/AuthStack';
-import PreviewScreen from './screens/PreviewScreen';
+import React from 'react';
+import Providers from './navigation';
 
-const App = () => {
-  return(
-    <AuthStack />
+
+function App() {
+  return (
+    <Providers />
   );
 }
 

@@ -4,7 +4,7 @@ import { windowHeight, windowWidth } from '../utils/Dimensions';
 import ListAppointment from '../components/ListAppointment';
 import uuid from 'uuid-random';
 import DatePicker from 'react-native-date-picker';
-import {Picker} from '@react-native-picker/picker';
+import {Picker} from '  ';
 
 
 const AppointmentScreen = () => {
